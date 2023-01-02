@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com vídeos</title>
+</head>
+<body>
+    <h1>Adicionando vídeos do servidor local</h1>
+    <p>Esses vídeos custam mais para o cliente, pois estão localizados no meu próprio servidor (gasta muitos dados).</p>
+    <video width="largura desejada" poster="arquivo de thumb desejado" autoplay controls loop>
+        <source src="arquivo do vídeo" type="video/tipo do arquivo exemplo: mp4">
+        <source src="arquivo do vídeo" type="video/tipo do arquivo exemplo: m4v">
+        <source src="arquivo do vídeo" type="video/tipo do arquivo exemplo: webm">
+        <source src="arquivo do vídeo" type="video/tipo do arquivo exemplo: ogv">
+        <p>Seu navegador não possui compatibilidade com o vídeo</p>
+    </video>
+    
+    <h1>Adicionando videos do Youtube ou do Vimeo</h1>
+    <p>Já esses vídeos, não gastam os meus dados, e sim os do Youtube ou do Vimeo!</p>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe src="https://player.vimeo.com/video/185871317?h=a63f42bf1b&color=ff0179" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos flexíveis</title>
+</head>
+<body>
+    <h1>Trabalhando com fotos flexíveis</h1>
+    <p>Dessa vez vamos criar um código com tags que permitem a manipulação de imagens para se adaptarem ao uso de PCs ou mobile.</p>
+    <p>Aumente ou diminua a janela do seu navegador para comprovar!</p>
+    <picture>
+    <source media="(max-width: 700px)" srcset="imagens/imagemP.png" type="image/png">
+    <source media="(max-width: 1000px)" srcset="imagens/imagemM.png" type="image/png">
+    <img src="imagens/imagemG.png" alt="imagem flexivel">
+    </picture>
+    <h1>Agora vamos adicionar audios ao nosso site</h1>
+    <h2>Veja e ouça o audio logo aqui embaixo!</h2>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Chasing - NEFFEX.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso não consiga ouvir o audio, clique <a href="midia/Chasing - NEFFEX.mp3" download="midia/Chasing - NEFFEX.mp3" target="_blank" type="audio/mpeg">aqui</a> para fazer o download dele.</p>
+</body>
+</html>

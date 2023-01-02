@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+background-color: rgb(114, 212, 212);
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(9, 27, 27);
+}
+
+
+/* aqui eu coloquei o h1 antes do #, mas n precisa*/
+
+h1#principal {
+text-align: center;
+font-size: 3em;
+background-color: rgb(6, 109, 109);
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+/* Nesses daqui embaixo eu não pus h2 antes do ponto, n precisa.*/
+
+.basico {
+color: green;
+}
+
+.intermediario {
+color: rgb(223, 223, 24);
+}
+
+.avançado {
+color: red;
+}
