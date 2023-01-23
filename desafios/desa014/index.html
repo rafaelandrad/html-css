@@ -20,6 +20,24 @@
         padding: 5px;
         border: 1px solid black;
     }
+
+    th {
+        background-color: rgb(95, 95, 95);
+        color: white;
+    }
+
+    .branco {
+        background-color: white;
+        color: black;
+    }
+
+    .cinza {
+        background-color: rgb(95, 95, 95);
+    }
+
+    th.media {
+        text-align: left;
+    }
     </style>
 </head>
 <body>
@@ -38,7 +56,7 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" class="branco">Exatas</th>
                 <td>Matemática</td>
                 <td>0</td>
                 <td>0</td>
@@ -63,8 +81,25 @@
                 <td>0</td>
             </tr>
             <tr>
-                <th>Média de Exatas</th>
-                
+                <th colspan="4" class="media">Média de Exatas</th>
+                <td class="cinza">0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" class="branco">Humanas</th>
+                <td>História</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Média de Humanas</th>
+                <td class="cinza">0</td>
             </tr>
         </tbody>
     </table>
